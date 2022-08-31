@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Custom T-shirt</title>
+</head>
+
+<body>
+<style>
+.leftside{
+        text-align: center;
+    color: #6867AC;
+       
+
+}
+
+body{
+    background-color:#FFBCD1;
+}
+
+input{
+    width: 200px;
+    color: #CE7BB0;
+}
+
+H1{
+    color:#A267AC; 
+    
+}
+select{
+    width: 200px;
+    color: #CE7BB0;
+}
+
+.sample-tshirt:hover{
+    width: 300px;
+}
+
+.submit{
+    color:#A267AC; 
+}
+
+</style>
+
+<section class="leftside" style="display: inline-block; width:50%; height: 100%;">
+<form action="" enctype="multipart/form-data" method="put">
+<h1>Best Quality Custom T-shirts</h1>
+<p>Order Details:</p>
+<img class="sample-tshirt" width="200px" height="200px" src="custom-tshirt.webp" alt="t-shirt"><br><br>
+<label for="tagline">Enter your tagline:</label><br>
+<input type="text" name="tagline" id="tagline"><br><br>
+<label for="color">Choose Color:</label><br>
+<select name="colour" id="colour">
+<option value="Black">Black</option>
+<option value="White">White</option>
+<option value="Red">Red</option>
+<option value="Grey">Grey</option>
+<option value="Blue">Blue</option>
+</select><br><br>
+<label for="size">Select Size:</label><br>
+<select id="size" name="size">
+<option value="S">S</option>
+<option value="M">M</option>
+<option value="L">L</option>
+<option value="XL">XL</option>
+<option value="XXL">XXL</option>
+</select><br><br>
+<label for="quantity">Quantity: </label><br>
+<select id="quantity" name="quantity">
+<option value="1">1 for 200 rupees</option>
+<option value="2">2 for 380 rupees</option>
+<option value="3">3 for 540 rupees</option>
+<option value="4">4 for 720 rupees</option>
+</select><br><br>
+<label for="date">Order Date:</label>
+<br>
+<input type="date" id="date" name="date">
+<br><br>
+<label for="payment">Payment Options:</label><br>
+<select id="payment" name="payment">
+<option value="Card">Card</option>
+<option value="UPI">UPI</option>
+<option value="Cash">Cash</option>
+</select><br><br>
+<label for="address">Address:</label><br>
+<input type="text" id="address" name="address">
+<br><br>    
+<button class= "submit" type="submit">Place Order</button>
+</form>
+
+</section>
+
+<section style="position:absolute; right:0px;top:0px; width: 50%; height: 100%;">
+    
+        <img src="rightbg.jpeg" alt="" style="width:auto; height:100%">
+        <div >
+        <video class="samplework" src="t-shirt customizing.mp4" style="overflow: hidden; border-radius: 6%; width:auto; height:70%; position:absolute; bottom:15%; top:15%; left:30%; right: auto; " controls autoplay muted>Browser doesn't support videos</video>
+        </div>
+    
+</section>
+</body>
+</html>
